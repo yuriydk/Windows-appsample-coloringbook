@@ -268,6 +268,17 @@
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
+  <Target Name="ShowReservedProperties" AfterTargets="BeforeBuild">  
+    <Message Text=" MSBuildProjectDirectory  = $(MSBuildProjectDirectory)" Importance="high" />     
+    <Message Text=" MSBuildProjectFile  = $(MSBuildProjectFile)" Importance="high" />   
+    <Message Text=" MSBuildProjectExtension  = $(MSBuildProjectExtension)" Importance="high" />     
+    <Message Text=" MSBuildProjectFullPath  = $(MSBuildProjectFullPath)" Importance="high" />   
+    <Message Text=" MSBuildProjectName  = $(MSBuildProjectName)" Importance="high" />   
+    <Message Text=" MSBuildBinPath  = $(MSBuildBinPath)" Importance="high" />   
+    <Message Text=" MSBuildProjectDefaultTargets  = $(MSBuildProjectDefaultTargets)" Importance="high" />   
+    <Message Text=" MSBuildExtensionsPath  = $(MSBuildExtensionsPath)" Importance="high" />     
+    <Message Text=" MSBuildStartupDirectory  = $(MSBuildStartupDirectory)" Importance="high"/>
+</Target>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
