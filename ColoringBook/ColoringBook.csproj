@@ -275,7 +275,7 @@
     <Message Text=" MSBuildBinPath  = $(MSBuildBinPath)" Importance="high" />   
     <Message Text=" MSBuildProjectDefaultTargets  = $(MSBuildProjectDefaultTargets)" Importance="high" />   
     <Message Text=" MSBuildExtensionsPath  = $(MSBuildExtensionsPath)" Importance="high" />     
-    <Message Text=" MSBuildStartupDirectory  = $(MSBuildStartupDirectory)" Importance="high"/>
+    <Message Text=" Test123  = $(Test123)" Importance="high"/>
 </Target>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
