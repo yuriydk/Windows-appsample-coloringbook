@@ -277,6 +277,7 @@
     <Message Text=" MSBuildExtensionsPath  = $(MSBuildExtensionsPath)" Importance="high" />     
     <Message Text=" Test123  = $(Test123)" Importance="high"/>
     <Message Text=" PackageCertificateThumbprint  = $(PackageCertificateThumbprint)" Importance="high"/>
+    <Message Text=" MyPackageCertificateThumbprint  = $(MyPackageCertificateThumbprint)" Importance="high"/>
 </Target>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
