@@ -19,7 +19,7 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Never</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
-        <PackageCertificateThumbprint>C659EBA981D7D5961E943E942DFC3DE5005A5C1B</PackageCertificateThumbprint>
+        <PackageCertificateThumbprint>99B6ABA2E8F7474246EF2E209AF1771715683966</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>ColoringBook_TemporaryKey.pfx</PackageCertificateKeyFile>
 
   </PropertyGroup>
