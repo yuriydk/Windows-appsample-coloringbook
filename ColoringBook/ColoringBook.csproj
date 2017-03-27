@@ -20,7 +20,7 @@
     <AppxBundle>Never</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
         <PackageCertificateThumbprint>99B6ABA2E8F7474246EF2E209AF1771715683966</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>ColoringBook_TemporaryKey_notexist.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>ColoringBook_TemporaryKey.pfx</PackageCertificateKeyFile>
 
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
