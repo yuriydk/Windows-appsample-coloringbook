@@ -19,7 +19,9 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Never</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
-    <PackageCertificateKeyFile>ColoringBook_TemporaryKey123.pfx</PackageCertificateKeyFile>
+        <PackageCertificateThumbprint>C659EBA981D7D5961E943E942DFC3DE5005A5C1B</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>ColoringBook_TemporaryKey.pfx</PackageCertificateKeyFile>
+
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
