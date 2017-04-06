@@ -70,7 +70,7 @@ Printing:
     Sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Printing/cs)
     – ColoringPage sends PhotoPrintHelper a stream to print.
 
-## See also
+## See also 
 
 [Monetize documentation](https://developer.microsoft.com/store/monetize)  
 [Pen and stylus documentation](https://msdn.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions)  
