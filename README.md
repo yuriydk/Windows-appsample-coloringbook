@@ -34,7 +34,7 @@ The default project is ColoringBook, and you can Start Debugging (F5) or
 Start Without Debugging (Ctrl+F5) to try it out. The app will run in the
 emulator or on physical devices.
 
-To enable the in-app purchases code:
+To enable the in-app purchases code: 
 
 1.  Follow the [instructions to test in-app
     purchases](https://msdn.microsoft.com/windows/uwp/monetize/in-app-purchases-and-trials#testing-apps-that-use-the-windows-services-store-namespace)
